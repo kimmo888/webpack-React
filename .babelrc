@@ -1,6 +1,17 @@
-{
+/* {  //com se llaman normalmente o lo que se hizo en le curso de platzi
     "presets": [
         "@babel/preset-env",  //poder trabajar con las nuevas actualizaciones de js
         "@babel/preset-react"  //poder trabajar con las ultimas versiones de react
     ]
+}
+ */
+
+//?Ya no necesitas importar React en los archivos donde utilizas sintaxis jsx: App.jsx
+{
+	"presets": [
+			"@babel/preset-env", //*poder trabajar con las nuevas actualizaciones de js
+			["@babel/preset-react", { //*poder trabajar con las ultimas versiones de react
+				"runtime": "automatic"
+			}]
+	]
 }
