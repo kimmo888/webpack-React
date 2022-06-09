@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env",  //poder trabajar con las nuevas actualizaciones de js
+        "@babel/preset-react"  //poder trabajar con las ultimas versiones de react
+    ]
+}
